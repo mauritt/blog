@@ -1,0 +1,7 @@
+USE blog;
+
+CREATE TABLE post (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    headline VARCHAR(100) NOT NULL,
+    content TEXT NOT NULL
+);
